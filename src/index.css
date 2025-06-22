@@ -1,0 +1,17 @@
+
+  body {
+    background-color: #121212;
+    color: #ff6700;
+  }
+  a.nav-link {
+    color: #ff6700;
+  }
+  a.nav-link.active {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffa042 !important;
+    text-shadow: 0 0 5px #ff6700;
+  }
+
