@@ -14,7 +14,7 @@ export default function Home() {
       </p>
 
       <img
-        src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=900&q=80"
+        src="/images/inicio.png"
         alt="Gaming vibes"
         className="img-fluid rounded shadow-lg mb-4"
         style={{ maxHeight: '400px', objectFit: 'cover', boxShadow: '0 0 20px #ff6700' }}
