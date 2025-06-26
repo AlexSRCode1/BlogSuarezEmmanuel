@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#121212', borderBottom: '3px solid #ff6700' }}>
       <div className="container">
         <NavLink className="navbar-brand fw-bold" to="/" style={{ color: '#ff6700' }}>
-          🎮 Blog Gamer
+          🎮 Blog Gamer by Alex
         </NavLink>
 
         <button
@@ -31,6 +31,12 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink to="/blog" className="nav-link text-warning fw-semibold" style={navStyle}>
                 Blog
+              </NavLink>
+            </li>
+            
+            <li className="nav-item">
+              <NavLink to="/informacion" className="nav-link text-warning fw-semibold" style={navStyle}>
+                Informacion
               </NavLink>
             </li>
             <li className="nav-item">

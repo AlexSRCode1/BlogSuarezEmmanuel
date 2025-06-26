@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contacto() {
   return (
     <div className="p-4 rounded shadow-lg mx-auto" style={{ maxWidth: '600px', backgroundColor: '#121212', color: '#ff6700' }}>
-      <h2 className="mb-4 text-center" style={{ textShadow: '0 0 12px #ff6700' }}>Contacto</h2>
+      <h2 className="mb-4 text-center" >Contacto</h2>
       <p className="mb-4 text-center" style={{ color: '#ffb17a' }}>
         ¿Tienes dudas o sugerencias? Envíanos un mensaje y te responderemos pronto.
       </p>
